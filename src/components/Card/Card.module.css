@@ -1,0 +1,75 @@
+.card {
+  background: var(--color-white-pure);
+  border: 1px solid var(--color-grey-lighter);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cardImg img {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.cardImg img {
+  transition: transform 500ms ease-in-out;
+}
+
+.cardImg img:hover {
+  transform: scale(1.04);
+}
+
+.cardAccent {
+  height: 4px;
+  background-color: var(--color-blue);
+}
+
+.cardBody {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cardLabel {
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-blue);
+  margin-bottom: var(--space-xs);
+}
+
+.cardTitle {
+  font-family: var(--h3-font-family);
+  font-weight: var(--h3-font-weight);
+  text-transform: var(--h3-transform);
+  font-size: var(--h3-font-size-desk);
+  color: var(--h3-color);
+  line-height: var(--line-height-snug);
+  margin-bottom: var(--space-sm);
+}
+
+.cardBody p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: var(--space-lg);
+}
+
+.cardLink {
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-blue);
+  transition: color var(--duration-fast);
+}
+
+.cardLink:hover {
+  color: var(--color-blue-dark);
+}

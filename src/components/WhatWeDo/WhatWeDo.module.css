@@ -1,0 +1,47 @@
+.whatWeDo .container > *,
+.whatWeDo .cardSection > * {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: sectionIn 0.65s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+
+
+.whatWeDo .container > *:nth-child(1),
+.whatWeDo .container > *:nth-child(2),
+.whatWeDo .container > *:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.whatWeDo .container > *:nth-child(4) {
+  animation-delay: 0.40s;
+}
+
+.whatWeDo .cardSection > *:nth-child(1) {
+  animation-delay: 0.15s;
+}
+.whatWeDo .cardSection > *:nth-child(2) {
+  animation-delay: 0.30s;
+}
+.whatWeDo .cardSection > *:nth-child(3) {
+  animation-delay: 0.45s;
+}
+
+.whatWeDo .cornerTab {
+  color: var(--color-blue);
+}
+
+.whatWeDo .cardSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: var(--space-lg)
+}
+
+@keyframes sectionIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

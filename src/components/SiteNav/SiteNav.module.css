@@ -1,0 +1,56 @@
+/* @import url(../../index.css); */
+
+.siteNav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--color-blue-dark);
+}
+
+.navInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.navLogo {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-white-pure);
+  line-height: 1.2;
+}
+
+.navLogo span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  color: var(--color-blue-light);
+  opacity: 0.7;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+}
+
+.navLinks a {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-white-pure);
+  padding: var(--space-xs) var(--space-md);
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.navLinks a:hover {
+  opacity: 1;
+}
