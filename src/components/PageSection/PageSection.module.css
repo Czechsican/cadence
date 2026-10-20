@@ -1,0 +1,137 @@
+.sectionPad {
+  padding: var(--section-pad);
+}
+
+.cornerTab {
+  color: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-bottom: var(--space-sm);
+}
+
+.sectionHeading {
+  margin: 0 0 20px;
+  color: var(--h2-color);
+  font-weight: var(--h2-font-weight);
+  text-transform: var(--h2-transform);
+  font-size: var(--h2-font-size-desk);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-display);
+}
+
+.sectionIntro {
+  color: var(--color-blue);
+  max-width: 600px;
+  margin: 0 0 var(--space-3xl) 0;
+  font-size: var(--lead-font-size);
+}
+
+.sectionWithCards .container > *,
+.sectionWithCards .cardSection > * {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: sectionIn 0.65s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+.sectionWithCards .container > *:nth-child(1),
+.sectionWithCards .container > *:nth-child(2),
+.sectionWithCards .container > *:nth-child(3),
+.sectionWithCards .container > *:nth-child(4) {
+  animation-delay: 0.15s;
+}
+
+/* .sectionWithCards .container > *:nth-child(4) {
+  animation-delay: 0.4s;
+} */
+
+.sectionWithCards .cardSection > *:nth-child(1) {
+  animation-delay: 0.15s;
+}
+.sectionWithCards .cardSection > *:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.sectionWithCards .cardSection > *:nth-child(3) {
+  animation-delay: 0.45s;
+}
+.sectionWithCards .cardSection > *:nth-child(4) {
+  animation-delay: 0.5s;
+}
+
+section.tint {
+  background: var(--color-white-tint);
+}
+
+.sectionWithCards .cornerTab {
+  color: var(--color-blue);
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.sectionWithCards .cardSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: var(--space-lg);
+}
+
+.sectionHeaderContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionIntro {
+  color: var(--color-blue);
+  text-wrap: balance;
+  margin: 0 0 var(--space-3xl) 0;
+  font-size: var(--lead-font-size);
+}
+
+.sectionCopy {
+  font-size: 1rem;
+  color: var(--color-grey-dark);
+  margin-bottom: var(--space-2xl);
+}
+
+@keyframes sectionIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* For medium screens and above */
+@media screen and (min-width: 768px) {
+
+  .sectionPad {
+    padding: var(--section-pad);
+  }
+  
+  .sectionIntro {
+    color: var(--color-blue);
+    max-width: 600px;
+    margin: 0 0 var(--space-3xl) 0;
+    font-size: var(--lead-font-size);
+  }
+
+  .sectionWithCards .cardSection {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .sectionIntro {
+    max-width: 70%;
+    text-wrap: balance;
+  }
+
+  .sectionHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+}

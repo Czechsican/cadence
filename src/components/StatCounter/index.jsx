@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 
 export default function StatCounter({
@@ -8,23 +9,28 @@ export default function StatCounter({
 
   useEffect(() => {
     let startTime;
+    let frame;
+
+    const reduceMotion = window.matchMedia?.(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
 
     const animate = (timestamp) => {
       if (!startTime) startTime = timestamp;
 
-      const progress = Math.min(
-        (timestamp - startTime) / duration,
-        1
-      );
+      const progress = reduceMotion
+        ? 1
+        : Math.min((timestamp - startTime) / duration, 1);
 
       setValue(target * progress);
 
       if (progress < 1) {
-        requestAnimationFrame(animate);
+        frame = requestAnimationFrame(animate);
       }
     };
 
-    requestAnimationFrame(animate);
+    frame = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(frame);
   }, [target, duration]);
 
   return (

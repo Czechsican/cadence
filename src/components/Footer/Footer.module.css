@@ -1,0 +1,120 @@
+.siteFooter {
+  background: var(--color-blue-darker);
+  color: var(--color-grey-dark);
+  text-align: center;
+  padding: var(--space-xl) var(--space-lg);
+}
+
+.siteFooter a {
+  transition: color 0.15s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--color-grey-darker);
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLogo {
+  color: var(--color-white);
+  font-size: 1.3rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: var(--space-xs);
+}
+
+.footerLogo span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: var(--color-blue-light);
+  opacity: 0.6;
+}
+
+.footerTagline {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--color-grey-darker);
+  margin-bottom: var(--space-sm);
+}
+
+.footerCol {
+  margin-bottom: var(--space-sm);
+}
+
+.footerCol li {
+  list-style: none;
+}
+
+.footerCol a:hover,
+.footerBottom a:hover {
+  color: var(--color-white);
+}
+
+.footerCol h2 {
+  font-size: 1em; /* keep the old h4 size now that this is an h2 */
+  color: var(--color-blue-light);
+  font-family: var(--font-display);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.6;
+  margin-bottom: var(--space-md);
+}
+
+.footerBottom {
+  font-size: 0.8rem;
+}
+
+/* For medium screens and above */
+@media screen and (min-width: 768px) {
+
+  .siteFooter {
+    padding: var(--space-4xl) var(--space-3xl) var(--space-xl);
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+  }
+
+  .footerTop {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: var(--space-3xl);
+  }
+
+  .footerCol li {
+    margin-bottom: 0.5rem;
+  }
+  .footerCol h2 {
+    font-size: 0.6rem;
+  }
+
+  .footerBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footerBottom p:last-child {
+    text-align: right;
+  }
+}

@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<FeatureSection /> > should match snapshot 1`] = `
+<div>
+  <section
+    class="featureSection"
+  >
+    <div
+      class="featureSectionContainer"
+    >
+      <div
+        class="feature"
+      >
+        <p
+          class="featureLabel"
+        >
+          About Cadence
+        </p>
+        <h2>
+          A real team. Not a founder with a roster behind the curtain.
+        </h2>
+        <p>
+          Cadence has grown into a bench of full-time coaches and specialists who've been doing this work long enough to have something to say about it. Whoever you end up working with, you're working with someone who's been in the room before.
+        </p>
+        <button
+          class="_btn_0829c1 _secondary_0829c1"
+          type="button"
+        >
+          MEET THE TEAM
+        </button>
+      </div>
+      <div
+        class="featureImage"
+      >
+        <img
+          alt=""
+          height="675"
+          loading="lazy"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&h=675&q=85"
+          width="900"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

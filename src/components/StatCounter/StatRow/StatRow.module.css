@@ -1,13 +1,12 @@
 .StatSection {
-  padding: 50px 0 0 0;
+  padding: var(--space-3xl) 0 0 0;
   background-color: #fff;
 }
 
 .row {
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 80%;
   margin: 0 auto;
   border-bottom: 2px solid var(--color-blue-light);
 }
@@ -18,13 +17,25 @@
   animation: rollingStats 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
-.row > *:nth-child(1) {
+/* .row > *:nth-child(1) {
   animation-delay: 0.15s;
-}
+} */
 
 @keyframes rollingStats {
   to {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* For medium screens and above */
+@media screen and (min-width: 768px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--color-blue-light);
   }
 }

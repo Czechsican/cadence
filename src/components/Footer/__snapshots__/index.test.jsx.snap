@@ -1,0 +1,140 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Footer /> > should match snapshot 1`] = `
+<div>
+  <footer
+    class="siteFooter"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="footerTop"
+      >
+        <div>
+          <div
+            class="footerLogo"
+          >
+            Cadence 
+            <span>
+              Leadership + Communication
+            </span>
+          </div>
+          <p
+            class="footerTagline"
+          >
+            Psychology-based coaching and development for senior leaders and the teams they lead.
+          </p>
+        </div>
+        <div
+          class="footerCol"
+        >
+          <h2>
+            Services
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                Coaching
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Courses & Training
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                360 Assessment
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                360 Speaking
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="footerCol"
+        >
+          <h2>
+            Company
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                About Cadence
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Our Team
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Podcast
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="footerCol"
+        >
+          <h2>
+            Contact
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                Work With Us
+              </a>
+            </li>
+            <li>
+              Vancouver, BC
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="footerBottom"
+      >
+        <p>
+          © 2026 Cadence Leadership + Communication
+        </p>
+        <p>
+          <a
+            href="#"
+          >
+            Privacy Policy
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

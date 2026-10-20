@@ -1,0 +1,29 @@
+{
+  "logo": "Cadence",
+  "logoSub": "Leadership + Communication",
+  "links": [
+    {
+      "text": "Coaching",
+      "href": "#"
+    },
+    {
+      "text": "Courses & Training",
+      "href": "#"
+    },
+    {
+      "text": "360 Assessments",
+      "href": "#"
+    },
+    {
+      "text": "About",
+      "href": "#"
+    }
+  ],
+  "cta": {
+    "label": "Work With Us",
+    "href": "#",
+    "variant": "primary"
+  },
+  "navLabel": "Main",
+  "menuLabel": "Toggle menu"
+}

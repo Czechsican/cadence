@@ -1,0 +1,105 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<PageSection /> > renders a custom sectionTitle 1`] = `
+<div>
+  <section
+    class="sectionWithCards "
+  >
+    <div
+      class="sectionPad container"
+    >
+      <div
+        data-testid="corner-tab"
+      >
+        Corner Tab Title
+      </div>
+      <div
+        class="sectionHeaderContainer"
+      >
+        <h2
+          class="sectionHeading"
+        >
+          Custom Title
+        </h2>
+      </div>
+      <div
+        class="cardSection"
+      >
+        <div
+          data-props="{"cardImg":{"id":"coaching","alt":"Coaching"},"cardLabel":"Demo Card Label","cardTitle":"Card Title Here.","cardCopy":"Direct, substantive, and designed for change that outlasts the engagement.","cardLink":{"src":"#","text":"Click this link"}}"
+          data-testid="card"
+        >
+          Card Title Here.
+        </div>
+        <div
+          data-props="{"cardImg":{"id":"coaching","alt":"Coaching"},"cardLabel":"Demo Card Label","cardTitle":"Card Title Here.","cardCopy":"Direct, substantive, and designed for change that outlasts the engagement.","cardLink":{"src":"#","text":"Click this link"}}"
+          data-testid="card"
+        >
+          Card Title Here.
+        </div>
+        <div
+          data-props="{"cardImg":{"id":"coaching","alt":"Coaching"},"cardLabel":"Demo Card Label","cardTitle":"Card Title Here.","cardCopy":"Direct, substantive, and designed for change that outlasts the engagement.","cardLink":{"src":"#","text":"Click this link"}}"
+          data-testid="card"
+        >
+          Card Title Here.
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`<PageSection /> > renders the Team Section correctly 1`] = `
+<div>
+  <section
+    class="sectionWithCards tint"
+  >
+    <div
+      class="sectionPad container"
+    >
+      <div
+        data-testid="corner-tab"
+      >
+        The Team
+      </div>
+      <div
+        class="sectionHeaderContainer"
+      >
+        <h2
+          class="sectionHeading"
+        >
+          Coaches who've been in those rooms.
+        </h2>
+      </div>
+      <div
+        class="cardSection"
+      >
+        <div
+          data-props="{"tall":true,"cardImg":{"id":"coach1","alt":"Coaching"},"cardTitle":"Coach name","cardCopy":"Senior Coach"}"
+          data-testid="card"
+        >
+          Coach name
+        </div>
+        <div
+          data-props="{"tall":true,"cardImg":{"id":"coach2","alt":"Coaching"},"cardTitle":"Coach name","cardCopy":"Senior Coach"}"
+          data-testid="card"
+        >
+          Coach name
+        </div>
+        <div
+          data-props="{"tall":true,"cardImg":{"id":"coach3","alt":"Coaching"},"cardTitle":"Coach name","cardCopy":"Senior Coach"}"
+          data-testid="card"
+        >
+          Coach name
+        </div>
+        <div
+          data-props="{"tall":true,"cardImg":{"id":"coach4","alt":"Coaching"},"cardTitle":"Coach name","cardCopy":"Senior Coach"}"
+          data-testid="card"
+        >
+          Coach name
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

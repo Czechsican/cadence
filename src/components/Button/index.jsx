@@ -1,34 +1,35 @@
+import React from "react";
 import styles from "./Button.module.css";
 
 const ButtonLink = ({
-  type = "button",
-  btnText,
-  linkVal,
-  style = "primary"
+  label = "Button Text",
+  href,
+  variant = "primary",
+  onClick,
 }) => {
+  const btnStyle = variant === "secondary" ? styles.secondary : styles.primary;
 
-  let element;
-  let btnStyle;
-
-  if (style === "secondary") {
-    btnStyle = styles.secondary;
-  } else {
-    btnStyle = styles.primary;
-  }
-
-  if (type === "link") {
-    element = (
-      <a className={`${styles.btn} ${btnStyle}`} href={linkVal}>{btnText}</a>
-    );
-  } else {
-    element = (
-      <button className={`${styles.btn} ${btnStyle}`}>{btnText}</button>
+  if (href) {
+    return (
+      <a
+        className={`${styles.btn} ${btnStyle} link`}
+        href={href}
+        onClick={onClick}
+      >
+        {label}
+      </a>
     );
   }
 
   return (
-    element
-  )
+    <button
+      type="button"
+      className={`${styles.btn} ${btnStyle}`}
+      onClick={onClick}
+    >
+      {label}
+    </button>
+  );
 };
 
 export default ButtonLink;

@@ -1,0 +1,34 @@
+{
+  "bannerImage": {
+    "id": "assessmentsBanner",
+    "alt": "360 assessment in practice"
+  },
+  "tab": "360 Assessments",
+  "title": "The 360 isn't just an assessment. It's a foothold.",
+  "paragraphs": [
+    "Our 360 process introduces you to your organization differently. Leaders who've been through one consistently say the same thing: they didn't expect it to go that deep.",
+    "Every engagement reaches the people around a leader — peers, direct reports, stakeholders — which means every 360 opens more doors than it starts with."
+  ],
+  "cta": {
+    "label": "How Our 360 Works",
+    "href": "#",
+    "variant": "secondary"
+  },
+  "steps": [
+    {
+      "stepNum": "01",
+      "stepTitle": "We Interview the people around you",
+      "stepBody": "Peers, direct reports, and stakeholders — up to 12 people. Conducted by a Cadence coach. Confidential, qualitative, and built to surface what surveys can't."
+    },
+    {
+      "stepNum": "02",
+      "stepTitle": "We build a narrative report",
+      "stepBody": "Not a dashboard. A written account of how you're experienced —themes, patterns, and specific behaviours the data actually supports. Honest without being brutal."
+    },
+    {
+      "stepNum": "03",
+      "stepTitle": "We debrief and build a path forward",
+      "stepBody": "A structured debrief with your coach, followed by a development plan grounded in what came out of the 360. Most leaders continue into coaching from here."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Band /> > matches snapshot 1`] = `
+<div>
+  <section
+    class="band dark"
+  >
+    <div
+      class="container"
+    >
+      <div>
+        <h2>
+          Most people are referred to us. You were probably referred to us.
+        </h2>
+        <p>
+          Most of the people who reach out already know someone who's worked with us. If that's you, we're glad you're here. If you want to talk about what you're dealing with, that's what the conversation is for.
+        </p>
+      </div>
+      <div
+        class="cta"
+      >
+        <button
+          class="_btn_0829c1 _primary_0829c1"
+          type="button"
+        >
+          Start a conversation
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;

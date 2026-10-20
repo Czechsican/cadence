@@ -1,0 +1,1124 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<App /> > should match snapshot 1`] = `
+<div>
+  <a
+    class="skip-link"
+    href="#main"
+  >
+    Skip to main content
+  </a>
+  <nav
+    aria-label="Main"
+    class="_siteNav_09d02c"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="_navInner_09d02c"
+      >
+        <div
+          class="_navLogo_09d02c"
+        >
+          Cadence
+          <span>
+            Leadership + Communication
+          </span>
+        </div>
+        <button
+          aria-controls="site-nav-links"
+          aria-expanded="false"
+          aria-label="Toggle menu"
+          class="_burgerMenu_09d02c"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          />
+          <span
+            aria-hidden="true"
+          />
+          <span
+            aria-hidden="true"
+          />
+        </button>
+        <div
+          class="_navLinksContainer_09d02c"
+          id="site-nav-links"
+        >
+          <ul
+            class="_navLinks_09d02c"
+          >
+            <li>
+              <a
+                href="#"
+              >
+                Coaching
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Courses & Training
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                360 Assessments
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+          <a
+            class="_btn_0829c1 _primary_0829c1 link"
+            href="#"
+          >
+            Work With Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main
+    id="main"
+    tabindex="-1"
+  >
+    <section
+      class="_siteHero_aa8e4d"
+      style="--hero-image: url("https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&h=900&q=85");"
+    >
+      <div>
+        <div
+          class="_heroContent_aa8e4d"
+        >
+          <p
+            class="_heroEyeBrow_aa8e4d"
+          >
+            Cadence Leadership + Communication
+          </p>
+          <h1>
+            Most leadership development asks good questions. 
+            <br />
+            <em>
+              We take positions.
+            </em>
+          </h1>
+          <p>
+            Cadence works with senior leaders and the teams they're accountable for — coaching, developing, and assessing the people who carry organizations forward. We're built on a psychology-based approach that pushes people through real change, not around it.
+          </p>
+          <div
+            class="_heroCtas_aa8e4d"
+          >
+            <a
+              class="_btn_0829c1 _primary_0829c1 link"
+              href="#"
+            >
+              Work With Us
+            </a>
+            <a
+              class="_btn_0829c1 _secondary_0829c1 link"
+              href="#"
+            >
+              See How Our 360 Works
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_StatSection_ab2bc7"
+    >
+      <div
+        class="_row_ab2bc7 container"
+      >
+        <div
+          class="_StatItem_080fc5"
+        >
+          <p
+            class="_val_080fc5"
+            data-count="10"
+            data-count-suffix="+"
+          >
+            <span
+              aria-hidden="true"
+            >
+              <span>
+                0
+              </span>
+              +
+            </span>
+            <span
+              class="sr-only"
+            >
+              10
+              +
+            </span>
+          </p>
+          <p
+            class="_title_080fc5"
+          >
+            Years in Practice
+          </p>
+        </div>
+        <div
+          class="_StatItem_080fc5"
+        >
+          <p
+            class="_val_080fc5"
+            data-count="75"
+            data-count-suffix="+"
+          >
+            <span
+              aria-hidden="true"
+            >
+              <span>
+                0
+              </span>
+              +
+            </span>
+            <span
+              class="sr-only"
+            >
+              75
+              +
+            </span>
+          </p>
+          <p
+            class="_title_080fc5"
+          >
+            Leaders Coached
+          </p>
+        </div>
+        <div
+          class="_StatItem_080fc5"
+        >
+          <p
+            class="_val_080fc5"
+            data-count="250"
+            data-count-suffix="+"
+          >
+            <span
+              aria-hidden="true"
+            >
+              <span>
+                0
+              </span>
+              +
+            </span>
+            <span
+              class="sr-only"
+            >
+              250
+              +
+            </span>
+          </p>
+          <p
+            class="_title_080fc5"
+          >
+            Courses Taught
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_sectionWithCards_78b1d5 "
+    >
+      <div
+        class="_sectionPad_78b1d5 container"
+      >
+        <p
+          class="_cornerTab_1d5846  "
+        >
+          What We do
+        </p>
+        <div
+          class="_sectionHeaderContainer_78b1d5"
+        >
+          <h2
+            class="_sectionHeading_78b1d5"
+          >
+            Four service areas. One connected approach.
+          </h2>
+        </div>
+        <p
+          class="_sectionIntro_78b1d5"
+        >
+          In practice, coaching, group development, 360 assessments, and speaking aren't separate programs — they inform each other. That's by design.
+        </p>
+        <div
+          class="_cardSection_78b1d5"
+        >
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                Coaching
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Senior leadership, one-on-one.
+              </h3>
+              <p>
+                Psychology-based coaching built for senior leaders navigating real pressure. Direct, substantive, and designed for change that outlasts the engagement.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                Learn About Coaching
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Courses"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                Courses
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Programs that read the room.
+              </h3>
+              <p>
+                Leadership and communication development that's relevant to what your team is actually dealing with. Not a catalogue — a curriculum built for the context.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                See our courses
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Courses"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                360 Assessments
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                A process that goes deeper.
+              </h3>
+              <p>
+                Reaching peers, direct reports, and stakeholders — not just the leader. Every 360 opens more doors than it starts with, which means every engagement expands from there.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                How it works
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Speaking"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                Speaking
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Learn to change.
+              </h3>
+              <p>
+                Have your people the opportunity to learn and grow so they can maximize their abilities and make a positive difference every day.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                Speaking Engagements
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_assessments_5bf31e"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="360 assessment in practice"
+          class="_banner_5bf31e"
+          height="540"
+          loading="lazy"
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&h=540&q=85"
+          width="1600"
+        />
+        <p
+          class="_cornerTab_1d5846 _marginBottom_1d5846 _alt_1d5846"
+        >
+          360 Assessments
+        </p>
+        <div
+          class="_sectionColumns_5bf31e"
+        >
+          <div
+            class="_leftColumn_5bf31e"
+          >
+            <h2>
+              The 360 isn't just an assessment. It's a foothold.
+            </h2>
+            <p
+              class="_assessmentBody_5bf31e"
+            >
+              Our 360 process introduces you to your organization differently. Leaders who've been through one consistently say the same thing: they didn't expect it to go that deep.
+            </p>
+            <p
+              class="_assessmentBody_5bf31e"
+            >
+              Every engagement reaches the people around a leader — peers, direct reports, stakeholders — which means every 360 opens more doors than it starts with.
+            </p>
+            <a
+              class="_btn_0829c1 _secondary_0829c1 link"
+              href="#"
+            >
+              How Our 360 Works
+            </a>
+          </div>
+          <div
+            class="_processSteps_5bf31e"
+          >
+            <div
+              class="_step_cf2994"
+            >
+              <div
+                class="_processStepNum_cf2994"
+              >
+                01
+              </div>
+              <div>
+                <div
+                  class="_processStepTitle_cf2994"
+                >
+                  We Interview the people around you
+                </div>
+                <div
+                  class="_processStepBody_cf2994"
+                >
+                  Peers, direct reports, and stakeholders — up to 12 people. Conducted by a Cadence coach. Confidential, qualitative, and built to surface what surveys can't.
+                </div>
+              </div>
+            </div>
+            <div
+              class="_step_cf2994"
+            >
+              <div
+                class="_processStepNum_cf2994"
+              >
+                02
+              </div>
+              <div>
+                <div
+                  class="_processStepTitle_cf2994"
+                >
+                  We build a narrative report
+                </div>
+                <div
+                  class="_processStepBody_cf2994"
+                >
+                  Not a dashboard. A written account of how you're experienced —themes, patterns, and specific behaviours the data actually supports. Honest without being brutal.
+                </div>
+              </div>
+            </div>
+            <div
+              class="_step_cf2994"
+            >
+              <div
+                class="_processStepNum_cf2994"
+              >
+                03
+              </div>
+              <div>
+                <div
+                  class="_processStepTitle_cf2994"
+                >
+                  We debrief and build a path forward
+                </div>
+                <div
+                  class="_processStepBody_cf2994"
+                >
+                  A structured debrief with your coach, followed by a development plan grounded in what came out of the 360. Most leaders continue into coaching from here.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_testimonialSection_940a53"
+    >
+      <div
+        class="container"
+      >
+        <p
+          class="_cornerTab_1d5846 _marginBottom_1d5846 "
+        >
+          What Clients Say
+        </p>
+        <article
+          class="_testimonial_940a53"
+        >
+          <blockquote>
+            "I've worked with executive coaches before. Cadence was the first time I felt like someone actually understood what was happening in my organization — not just what I was telling them. The coaching was direct in a way I didn't expect, and that's exactly what I needed."
+          </blockquote>
+          <cite>
+            Director of Operations — Technology Company, Vancouver
+          </cite>
+        </article>
+      </div>
+    </section>
+    <section
+      class="_band_17bd78 false"
+    >
+      <div
+        class="_container_17bd78"
+      >
+        <div>
+          <h2>
+            What makes Cadence different is how we work.
+          </h2>
+          <p>
+            We don't offer a catalogue. We build an approach around the leader, the team, and the real situation. Psychology-based. Direct. Built for change that holds after the engagement ends.
+          </p>
+        </div>
+        <div
+          class="_cta_17bd78"
+        >
+          <a
+            class="_btn_0829c1 _primary_0829c1 link"
+            href="#"
+          >
+            Our Approach
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_featureSection_80d20b"
+    >
+      <div
+        class="_featureSectionContainer_80d20b"
+      >
+        <div
+          class="_feature_80d20b"
+        >
+          <p
+            class="_featureLabel_80d20b"
+          >
+            About Cadence
+          </p>
+          <h2>
+            A real team. Not a founder with a roster behind the curtain.
+          </h2>
+          <p>
+            Cadence has grown into a bench of full-time coaches and specialists who've been doing this work long enough to have something to say about it. Whoever you end up working with, you're working with someone who's been in the room before.
+          </p>
+          <a
+            class="_btn_0829c1 _secondary_0829c1 link"
+            href="#"
+          >
+            MEET THE TEAM
+          </a>
+        </div>
+        <div
+          class="_featureImage_80d20b"
+        >
+          <img
+            alt=""
+            height="675"
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&h=675&q=85"
+            width="900"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      class="_sectionWithCards_78b1d5 _tint_78b1d5"
+    >
+      <div
+        class="_sectionPad_78b1d5 container"
+      >
+        <p
+          class="_cornerTab_1d5846  "
+        >
+          The Team
+        </p>
+        <div
+          class="_sectionHeaderContainer_78b1d5"
+        >
+          <h2
+            class="_sectionHeading_78b1d5"
+          >
+            Coaches who've been in those rooms.
+          </h2>
+        </div>
+        <div
+          class="_cardSection_78b1d5"
+        >
+          <div
+            class="_card_f66b11 _tall_f66b11"
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="795"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&h=795&q=85"
+                width="600"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Coach name
+              </h3>
+              <p>
+                Senior Coach
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="/#"
+              >
+                Link Text
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 _tall_f66b11"
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="795"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&h=795&q=85"
+                width="600"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Coach name
+              </h3>
+              <p>
+                Senior Coach
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="/#"
+              >
+                Link Text
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 _tall_f66b11"
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="795"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&h=795&q=85"
+                width="600"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Coach name
+              </h3>
+              <p>
+                Senior Coach
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="/#"
+              >
+                Link Text
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 _tall_f66b11"
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="795"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&h=795&q=85"
+                width="600"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Coach name
+              </h3>
+              <p>
+                Senior Coach
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="/#"
+              >
+                Link Text
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_sectionWithCards_78b1d5 "
+    >
+      <div
+        class="_sectionPad_78b1d5 container"
+      >
+        <p
+          class="_cornerTab_1d5846  "
+        >
+          From The Team
+        </p>
+        <div
+          class="_sectionHeaderContainer_78b1d5"
+        >
+          <h2
+            class="_sectionHeading_78b1d5"
+          >
+            The thinking behind the work.
+          </h2>
+          <a
+            class="_btn_0829c1 _secondary_0829c1 link"
+            href="#"
+          >
+            See All Posts
+          </a>
+        </div>
+        <p
+          class="_sectionCopy_78b1d5"
+        >
+          What's happening in leadership right now — from the coaches who are in those rooms every week.
+        </p>
+        <div
+          class="_cardSection_78b1d5"
+        >
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                Leadership
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                Why Directness Is the Most Underrated Leadership Skill
+              </h3>
+              <p>
+                Most leaders are trained to soften, hedge, and qualify. The ones who actually move organizations are the ones who've learned to stop.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                May 2026
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="360 Assessment"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1493612276216-ee3925520721?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                360 Assessment
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                What Most 360s Get Wrong
+              </h3>
+              <p>
+                They gather data. They don't change anything. Here's the difference between a process that informs and one that transforms.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                April 2026
+              </a>
+            </div>
+          </div>
+          <div
+            class="_card_f66b11 "
+          >
+            <div
+              class="_cardImg_f66b11"
+            >
+              <img
+                alt="Coaching"
+                height="450"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&h=450&q=85"
+                width="800"
+              />
+            </div>
+            <div
+              class="_cardAccent_f66b11"
+            />
+            <div
+              class="_cardBody_f66b11"
+            >
+              <div
+                class="_cardLabel_f66b11"
+              >
+                Communication
+              </div>
+              <h3
+                class="_cardTitle_f66b11"
+              >
+                The Conversation You Keep Avoiding
+              </h3>
+              <p>
+                Not having it doesn't make the situation easier. It makes it permanent. On why avoidance is the costliest communication strategy.
+              </p>
+              <a
+                class="_cardLink_f66b11"
+                href="#"
+              >
+                March 2026
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="_band_17bd78 _dark_17bd78"
+    >
+      <div
+        class="_container_17bd78"
+      >
+        <div>
+          <h2>
+            Most people are referred to us. You were probably referred to us.
+          </h2>
+          <p>
+            Most of the people who reach out already know someone who's worked with us. If that's you, we're glad you're here. If you want to talk about what you're dealing with, that's what the conversation is for.
+          </p>
+        </div>
+        <div
+          class="_cta_17bd78"
+        >
+          <a
+            class="_btn_0829c1 _primary_0829c1 link"
+            href="#"
+          >
+            Start a conversation
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer
+    class="_siteFooter_acfd2c"
+  >
+    <div
+      class="_container_acfd2c"
+    >
+      <div
+        class="_footerTop_acfd2c"
+      >
+        <div>
+          <div
+            class="_footerLogo_acfd2c"
+          >
+            Cadence 
+            <span>
+              Leadership + Communication
+            </span>
+          </div>
+          <p
+            class="_footerTagline_acfd2c"
+          >
+            Psychology-based coaching and development for senior leaders and the teams they lead.
+          </p>
+        </div>
+        <div
+          class="_footerCol_acfd2c"
+        >
+          <h2>
+            Services
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                Coaching
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Courses & Training
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                360 Assessment
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                360 Speaking
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="_footerCol_acfd2c"
+        >
+          <h2>
+            Company
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                About Cadence
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Our Team
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Podcast
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="_footerCol_acfd2c"
+        >
+          <h2>
+            Contact
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                Work With Us
+              </a>
+            </li>
+            <li>
+              Vancouver, BC
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="_footerBottom_acfd2c"
+      >
+        <p>
+          © 2026 Cadence Leadership + Communication
+        </p>
+        <p>
+          <a
+            href="#"
+          >
+            Privacy Policy
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

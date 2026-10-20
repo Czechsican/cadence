@@ -1,0 +1,62 @@
+.assessments {
+  background: var(--color-white-tint);
+}
+
+.assessments .banner {
+  aspect-ratio: 10 / 7;
+  object-fit: cover;
+  object-position: center 35%;
+  display: block;
+  margin: 0 auto var(--space-xl);
+}
+
+.sectionColumns {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--space-2xl);
+}
+
+.leftColumn > a,
+.leftColumn > button {
+  margin-bottom: var(--space-xl);
+}
+
+.leftColumn h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-blue-dark);
+  margin-bottom: var(--space-2xl);
+  line-height: 1.1;
+}
+
+p.assessmentBody {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--color-grey-dark);
+  margin-bottom: var(--space-lg);
+}
+
+.processSteps {
+  border-top: 2px solid var(--color-blue-light);
+  border-bottom: 2px solid var(--color-blue-light);
+}
+
+/* For medium screens and above */
+@media screen and (min-width: 768px) {
+  .assessments {
+    padding: var(--space-5xl) 0;
+  }
+  
+  .assessments .banner {
+    aspect-ratio: 21 / 7;
+    margin-bottom: var(--space-3xl);
+  }
+
+  .sectionColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-5xl);
+  }
+}

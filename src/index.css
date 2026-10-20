@@ -4,13 +4,9 @@
 }
 
 :root {
-
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-
   /* =================================================================
     COLOUR SECTION
   ===================================================================*/
-  --color-blue-lighter: #def0f6;
   --color-blue-light: #c3e5ee;
   --color-blue: #4582c3;
   --color-blue-dark: #283232;
@@ -18,43 +14,23 @@
 
   /* Accent Colours */
   --color-orange: #e86424;
-  --color-orange-dark: #c8521a; /* darken(#e86424, ~12%) — hover state */
-  --color-yellow: #f1e072;
 
   /* Neutral */
   --color-white: #f4fbfc;
   --color-white-pure: #ffffff; /* true white — use for text on dark, overlays */
+  --color-white-tint: #f0f6fb;
   --color-grey-lighter: #d6d9d9; /* lighten(#BCC0C0, 10%) */
-  --color-grey-light: #bcc0c0;
   --color-grey: #aeb3b3; /* darken(#BCC0C0,  5%) */
   --color-grey-dark: #a1a7a7; /* darken(#BCC0C0, 10%) */
+  --color-grey-darker: rgba(255, 255, 255, 0.35);
 
-  /* Alert / Status */
-  --color-alert-yellow: #ebe16f;
-  --color-alert-red: #d0011b;
-  --color-alert-green: #e6efc2;
-  --color-alert-blue: #d5edf8;
-
-/* =================================================================
+  /* =================================================================
   COLOUR APPLICATION
   Change Pallete to adjust theme.
 ===================================================================*/
 
-  --color-foreground: var(--color-blue-dark);
   --color-background: var(--color-white);
-
-  --color-link: inherit;
-  --color-link-hover: #3c4c4c;
-  --color-border: var(--color-foreground);
-
-  /* Navigation */
-  --color-nav-link: var(--color-blue-dark);
-  --color-nav-link-hover: var(--color-grey);
-  --color-nav-link-active: var(--color-blue);
-  --color-nav-mobile-link: var(--color-blue-dark);
-  --color-nav-mobile-bg: var(--color-white);
-  --color-nav-mobile-active-bg: var(--color-blue);
-  --color-nav-hamburger: var(--color-blue-dark);
+  --duration-fast: 0.2s;
 
   /* Button — Primary (dark on white) */
   --color-btn-bg: var(--color-white);
@@ -78,99 +54,85 @@
   ============================================================ */
 
   /* Primitive scale */
-  --space-xs:   0.5rem;    /*  8px — tight gaps, nav padding      */
-  --space-sm:   0.75rem;   /* 12px — small gaps, caption margin   */
-  --space-md:   1rem;      /* 16px — base unit, outer page gutter */
-  --space-lg:   1.5rem;    /* 24px — grid gaps, card internals    */
-  --space-xl:   2rem;      /* 32px — internal padding, large gaps */
-  --space-2xl:  2.5rem;    /* 40px — section sub-spacing          */
-  --space-3xl:  3rem;      /* 48px — block / section padding      */
-  --space-4xl:  4rem;      /* 64px — large section padding        */
-  --space-5xl:  5rem;      /* 80px — hero vertical padding        */
-  --space-6xl:  6rem;      /* 96px — feature section padding      */
-  --space-7xl:  7rem;      /* 112px — max section vertical rhythm */
-
-
+  --space-xs: 0.5rem; /*  8px — tight gaps, nav padding      */
+  --space-sm: 0.75rem; /* 12px — small gaps, caption margin   */
+  --space-md: 1rem; /* 16px — base unit, outer page gutter */
+  --space-lg: 1.5rem; /* 24px — grid gaps, card internals    */
+  --space-xl: 2rem; /* 32px — internal padding, large gaps */
+  --space-2xl: 2.5rem; /* 40px — section sub-spacing          */
+  --space-3xl: 3rem; /* 48px — block / section padding      */
+  --space-4xl: 4rem; /* 64px — large section padding        */
+  --space-5xl: 5rem; /* 80px — hero vertical padding        */
 
   /* --- Hero Banner -----------------------------------------
       Full-width introduction block: dark bg, large heading,
       subtext, and one or two CTAs. */
-  --hero-min-height:      480px;
-  --hero-padding-y:       5rem;
-  --hero-bg:              var(--color-blue-dark);
-  --hero-heading-color:   var(--color-white);
-  --hero-subtext-color:   var(--color-blue-light);
-  --hero-accent-color:    var(--color-blue);
-  --hero-accent-width:    var(--border-decoration);
+  --hero-padding-y: 5rem;
+  --hero-bg: var(--color-blue-dark);
 
-
- /* ============================================================
+  /* ============================================================
     TYPOGRAPHY
   ============================================================ */
 
   /* Font stacks */
-  --font-sans:        'Source Sans Pro', Helvetica, Arial, sans-serif;
-  --font-display:     'Raleway', Helvetica, 'Arial Narrow', Tahoma, Geneva, Arial, sans-serif;
+  --font-sans: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  --font-display:
+    "Raleway", Helvetica, "Arial Narrow", Tahoma, Geneva, Arial, sans-serif;
 
   /* Base sizes — mobile-first, scale up at breakpoints */
-  --font-size-sm:     16px;   /* mobile body         ($font-size-mobile) */
-  --font-size-md:     18px;   /* desktop body        ($font-size)        */
-  --font-size-lg:     21px;   /* wide-screen body    ($font-size-large)  */
+  --font-size-md: 18px; /* desktop body        ($font-size)        */
 
   /* Line heights */
-  --line-height-base:  1.4;
+  --line-height-base: 1.4;
   --line-height-tight: 1.1;
-  --line-height-snug:  1.3;
+  --line-height-snug: 1.3;
 
   /* Heading scale (em, relative to body size)
       Sizes are as used in _typography.scss.
       "mob" = below 769px, "desk" = 769px+ */
-  --h1-font-size-mob:  1.3333em;
-  --h1-font-size-desk: 2.2857em;
-  --h1-font-weight:    900;
-  --h1-font-family:    var(--font-display);
-  --h1-color:          var(--color-blue-dark);
-  --h1-transform:      uppercase;
+  --h1-font-weight: 900;
+  --h1-font-family: var(--font-display);
+  --h1-transform: uppercase;
 
-
-  --h2-font-size-mob:  1.3333em;
   --h2-font-size-desk: 2.2857em;
-  --h2-font-weight:    900;
-  --h2-font-family:    var(--font-display);
-  --h2-color:          var(--color-blue-dark);
-  --h2-transform:      uppercase;
+  --h2-font-weight: 900;
+  --h2-font-family: var(--font-display);
+  --h2-color: var(--color-blue-dark);
+  --h2-transform: uppercase;
 
-  --h3-font-size-mob:  1.1111em;
   --h3-font-size-desk: 1.3333em;
-  --h3-font-weight:    600;
-  --h3-font-family:    var(--font-display);
-  --h3-color:          var(--color-blue-dark);
-  --h3-transform:      uppercase;
+  --h3-font-weight: 600;
+  --h3-font-family: var(--font-display);
+  --h3-color: var(--color-blue-dark);
+  --h3-transform: uppercase;
 
-  --h4-font-size:      1.1429em;
-  --h4-color:          var(--color-blue);
 
-  --h5-font-size:      1em;   /* modular-scale(0) = base */
-  --h5-font-weight:    600;
 
   /* Lead / intro paragraph (first-p pattern) */
-  --lead-font-size:    1.1111em;
-  --lead-color:        var(--color-blue);
+  --lead-font-size: 1.1111em;
 
-  --container-width: 1140px;
-  --section-pad: 3rem;
+  --container-width: 100%;
+  --section-pad: 2rem;
 }
 
 body {
   font-family: var(--font-sans);
   font-size: var(--font-size-md);
   line-height: var(--line-height-base);
-  /* color: var(--color-foreground); */
   background: var(--color-background);
 }
 
-img { display: block; width: 100%; height: 100%; object-fit: cover; }
-a { text-decoration: none; color: inherit; }
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .container {
   max-width: var(--container-width);
@@ -178,72 +140,66 @@ a { text-decoration: none; color: inherit; }
   padding: 0 var(--space-2xl);
 }
 
+/* For medium screens and above */
+@media screen and (min-width: 768px) {
+  :root {
+    /* --- Hero Banner -----------------------------------------
+      Full-width introduction block: dark bg, large heading,
+      subtext, and one or two CTAs. */
+    --hero-padding-y: 5rem;
+
+    --container-width: 1140px;
+    --section-pad: 3rem;
+  }
+}
+
 
 /* =================================================================
-  SECTION BASE STYLES
+  ACCESSIBILITY
 ===================================================================*/
-
-.sectionPad {
-  padding: var(--section-pad);
+:focus-visible {
+  outline: 3px solid var(--color-orange);
+  outline-offset: 2px;
 }
 
-.cornerTab {
-  color: inherit;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.6rem;
-  margin-bottom: var(--space-sm);
+main:focus {
+  outline: none;
 }
 
-.sectionHeading {
-  margin: 0 0 20px;
-  color: var(--h2-color);
-  font-weight: var(--h2-font-weight);
-  text-transform: var(--h2-transform);
-  font-size: var(--h2-font-size-desk);
-  font-family: var(--font-display);
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-white-pure);
+  color: var(--color-blue-dark);
+  transform: translateY(-100%);
 }
 
-.sectionIntro {
-  color: var(--color-blue);
-  max-width: 600px;
-  margin: 0 0 var(--space-3xl) 0;
-  font-size: var(--lead-font-size);
+.skip-link:focus {
+  transform: translateY(0);
 }
 
-/* =================================================================
-  ANIMATIONS
-===================================================================*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
 
-.anim-fade-up {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
-.anim-slide-right {
-  opacity: 0;
-  transform: translateX(-36px);
-  transition: opacity 0.65s var(--ease-out), transform 0.65s var(--ease-out);
-}
-.anim-slide-left {
-  opacity: 0;
-  transform: translateX(36px);
-  transition: opacity 0.65s var(--ease-out), transform 0.65s var(--ease-out);
-}
-.anim-scale {
-  opacity: 0;
-  transform: scale(0.96) translateY(16px);
-  transition: opacity 0.55s var(--ease-out), transform 0.55s var(--ease-out);
-}
-/* Visible state */
-.anim-fade-up.is-visible,
-.anim-slide-right.is-visible,
-.anim-slide-left.is-visible,
-.anim-scale.is-visible {
-  opacity: 1; transform: none;
-}
-/* Stagger delays */
-.delay-1 { transition-delay: 0.10s !important; }
-.delay-2 { transition-delay: 0.20s !important; }
-.delay-3 { transition-delay: 0.30s !important; }
-.delay-4 { transition-delay: 0.40s !important; }

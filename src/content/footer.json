@@ -1,0 +1,34 @@
+{
+  "logo": "Cadence",
+  "logoSub": "Leadership + Communication",
+  "tagline": "Psychology-based coaching and development for senior leaders and the teams they lead.",
+  "columns": [
+    {
+      "title": "Services",
+      "items": [
+        { "text": "Coaching", "href": "#" },
+        { "text": "Courses & Training", "href": "#" },
+        { "text": "360 Assessment", "href": "#" },
+        { "text": "360 Speaking", "href": "#" }
+      ]
+    },
+    {
+      "title": "Company",
+      "items": [
+        { "text": "About Cadence", "href": "#" },
+        { "text": "Our Team", "href": "#" },
+        { "text": "Blog", "href": "#" },
+        { "text": "Podcast", "href": "#" }
+      ]
+    },
+    {
+      "title": "Contact",
+      "items": [
+        { "text": "Work With Us", "href": "#" },
+        { "text": "Vancouver, BC" }
+      ]
+    }
+  ],
+  "copyright": "© 2026 Cadence Leadership + Communication",
+  "privacy": { "text": "Privacy Policy", "href": "#" }
+}

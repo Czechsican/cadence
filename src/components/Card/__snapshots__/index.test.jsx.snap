@@ -1,0 +1,47 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Card /> > should match snapshot 1`] = `
+<div>
+  <div
+    class="card "
+  >
+    <div
+      class="cardImg"
+    >
+      <img
+        alt="Speaking"
+        height="450"
+        loading="lazy"
+        src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=800&h=450&q=85"
+        width="800"
+      />
+    </div>
+    <div
+      class="cardAccent"
+    />
+    <div
+      class="cardBody"
+    >
+      <div
+        class="cardLabel"
+      >
+        Speaking
+      </div>
+      <h3
+        class="cardTitle"
+      >
+        Learn to change.
+      </h3>
+      <p>
+        ive your people the opportunity to learn and grow so they can maximize their abilities and make a positive difference every day.
+      </p>
+      <a
+        class="cardLink"
+        href="#"
+      >
+        Speaking Engagments
+      </a>
+    </div>
+  </div>
+</div>
+`;

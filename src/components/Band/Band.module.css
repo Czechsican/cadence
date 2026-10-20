@@ -1,0 +1,56 @@
+.band {
+  padding: var(--space-3xl);
+  text-wrap: balance;
+  background: var(--color-blue) ;
+}
+
+.band h2 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--color-white);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-md);
+}
+
+.band p {
+  color: var(--color-blue-light);
+  margin-bottom: var(--space-lg);
+}
+
+.band .cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dark {
+  background: var(--color-blue-dark);
+}
+.dark h2 {
+  color: var(--color-white);
+}
+.dark p {
+  color: var(--color-blue-light);
+}
+
+/* For medium screens and above */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-4xl);
+  }
+
+  .band h2 {
+    font-size: clamp(1.3rem, 2.5vw, 2rem);    
+  }
+
+  .band p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }  
+}

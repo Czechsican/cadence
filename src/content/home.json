@@ -1,0 +1,188 @@
+{
+  "heroEyebrow": "Cadence Leadership + Communication",
+  "whatMakesUsDifferent": {
+    "title": "What makes Cadence different is how we work.",
+    "copy": "We don't offer a catalogue. We build an approach around the leader, the team, and the real situation. Psychology-based. Direct. Built for change that holds after the engagement ends.",
+    "cta": {
+      "label": "Our Approach",
+      "href": "#",
+      "variant": "primary"
+    }
+  },
+  "referredToUs": {
+    "dark": true,
+    "title": "Most people are referred to us. You were probably referred to us.",
+    "copy": "Most of the people who reach out already know someone who's worked with us. If that's you, we're glad you're here. If you want to talk about what you're dealing with, that's what the conversation is for.",
+    "cta": {
+      "label": "Start a conversation",
+      "href": "#",
+      "variant": "primary"
+    }
+  },
+  "theTeamSection": {
+    "name": "theTeam",
+    "cornerTab": "The Team",
+    "sectionTitle": "Coaches who've been in those rooms.",
+    "background": "tint",
+    "cards": [
+      {
+        "tall": true,
+        "cardImg": {
+          "id": "coach1",
+          "alt": "Coaching"
+        },
+        "cardTitle": "Coach name",
+        "cardCopy": "Senior Coach"
+      },
+      {
+        "tall": true,
+        "cardImg": {
+          "id": "coach2",
+          "alt": "Coaching"
+        },
+        "cardTitle": "Coach name",
+        "cardCopy": "Senior Coach"
+      },
+      {
+        "tall": true,
+        "cardImg": {
+          "id": "coach3",
+          "alt": "Coaching"
+        },
+        "cardTitle": "Coach name",
+        "cardCopy": "Senior Coach"
+      },
+      {
+        "tall": true,
+        "cardImg": {
+          "id": "coach4",
+          "alt": "Coaching"
+        },
+        "cardTitle": "Coach name",
+        "cardCopy": "Senior Coach"
+      }
+    ]
+  },
+  "whatWeDoSection": {
+    "name": "whatWeDo",
+    "cornerTab": "What We do",
+    "sectionTitle": "Four service areas. One connected approach.",
+    "sectionIntro": "In practice, coaching, group development, 360 assessments, and speaking aren't separate programs — they inform each other. That's by design.",
+    "cards": [
+      {
+        "cardImg": {
+          "id": "coaching",
+          "alt": "Coaching"
+        },
+        "cardLabel": "Coaching",
+        "cardTitle": "Senior leadership, one-on-one.",
+        "cardCopy": "Psychology-based coaching built for senior leaders navigating real pressure. Direct, substantive, and designed for change that outlasts the engagement.",
+        "cardLink": {
+          "src": "#",
+          "text": "Learn About Coaching"
+        }
+      },
+      {
+        "cardImg": {
+          "id": "courses",
+          "alt": "Courses"
+        },
+        "cardLabel": "Courses",
+        "cardTitle": "Programs that read the room.",
+        "cardCopy": "Leadership and communication development that's relevant to what your team is actually dealing with. Not a catalogue — a curriculum built for the context.",
+        "cardLink": {
+          "src": "#",
+          "text": "See our courses"
+        }
+      },
+      {
+        "cardImg": {
+          "id": "assessments",
+          "alt": "Courses"
+        },
+        "cardLabel": "360 Assessments",
+        "cardTitle": "A process that goes deeper.",
+        "cardCopy": "Reaching peers, direct reports, and stakeholders — not just the leader. Every 360 opens more doors than it starts with, which means every engagement expands from there.",
+        "cardLink": {
+          "src": "#",
+          "text": "How it works"
+        }
+      },
+      {
+        "cardImg": {
+          "id": "speaking",
+          "alt": "Speaking"
+        },
+        "cardLabel": "Speaking",
+        "cardTitle": "Learn to change.",
+        "cardCopy": "Have your people the opportunity to learn and grow so they can maximize their abilities and make a positive difference every day.",
+        "cardLink": {
+          "src": "#",
+          "text": "Speaking Engagements"
+        }
+      }
+    ]
+  },
+  "fromTheTeamSection": {
+    "cta": {
+      "label": "See All Posts",
+      "href": "#",
+      "variant": "secondary"
+    },
+    "name": "fromTheTeam",
+    "cornerTab": "From The Team",
+    "sectionTitle": "The thinking behind the work.",
+    "sectionCopy": "What's happening in leadership right now — from the coaches who are in those rooms every week.",
+    "cards": [
+      {
+        "cardImg": {
+          "id": "postLeadership",
+          "alt": "Coaching"
+        },
+        "cardLabel": "Leadership",
+        "cardTitle": "Why Directness Is the Most Underrated Leadership Skill",
+        "cardCopy": "Most leaders are trained to soften, hedge, and qualify. The ones who actually move organizations are the ones who've learned to stop.",
+        "cardLink": {
+          "src": "#",
+          "text": "May 2026"
+        }
+      },
+      {
+        "cardImg": {
+          "id": "post360",
+          "alt": "360 Assessment"
+        },
+        "cardLabel": "360 Assessment",
+        "cardTitle": "What Most 360s Get Wrong",
+        "cardCopy": "They gather data. They don't change anything. Here's the difference between a process that informs and one that transforms.",
+        "cardLink": {
+          "src": "#",
+          "text": "April 2026"
+        }
+      },
+      {
+        "cardImg": {
+          "id": "postCommunication",
+          "alt": "Coaching"
+        },
+        "cardLabel": "Communication",
+        "cardTitle": "The Conversation You Keep Avoiding",
+        "cardCopy": "Not having it doesn't make the situation easier. It makes it permanent. On why avoidance is the costliest communication strategy.",
+        "cardLink": {
+          "src": "#",
+          "text": "March 2026"
+        }
+      }
+    ]
+  },
+  "aboutCadence": {
+    "featureLabel": "About Cadence",
+    "featureTitle": "A real team. Not a founder with a roster behind the curtain.",
+    "featureCopy": "Cadence has grown into a bench of full-time coaches and specialists who've been doing this work long enough to have something to say about it. Whoever you end up working with, you're working with someone who's been in the room before.",
+    "cta": {
+      "label": "MEET THE TEAM",
+      "href": "#",
+      "variant": "secondary"
+    }
+  }
+}

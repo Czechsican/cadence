@@ -1,28 +1,14 @@
 import styles from "./StatRow.module.css";
 import StatItem from "./StatItem";
-
-const dummyStats = [
-  {
-    title: "Years in Practice",
-    val: 10,
-  },
-  {
-    title: "Leaders Coached",
-    val: 75,
-  },
-  {
-    title: "Courses Taught",
-    val: 250,
-  },
-];
+import stats from "../../../content/stats.json";
 
 const StatRow = () => {
   return (
     <section className={`${styles.StatSection}`}>
       <div className={`${styles.row} container`}>
         {
-          dummyStats.map(
-            stats => <StatItem info={stats} key={stats.title} />
+          stats.map(
+            stat => <StatItem info={stat} key={stat.title} />
           )
         }
       </div>

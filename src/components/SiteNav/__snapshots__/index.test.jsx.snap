@@ -1,0 +1,87 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<SiteNav /> > Should match snapshot 1`] = `
+<div>
+  <nav
+    aria-label="Main"
+    class="siteNav"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="navInner"
+      >
+        <div
+          class="navLogo"
+        >
+          Cadence
+          <span>
+            Leadership + Communication
+          </span>
+        </div>
+        <button
+          aria-controls="site-nav-links"
+          aria-expanded="false"
+          aria-label="Toggle menu"
+          class="burgerMenu"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          />
+          <span
+            aria-hidden="true"
+          />
+          <span
+            aria-hidden="true"
+          />
+        </button>
+        <div
+          class="navLinksContainer"
+          id="site-nav-links"
+        >
+          <ul
+            class="navLinks"
+          >
+            <li>
+              <a
+                href="#"
+              >
+                Coaching
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Courses & Training
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                360 Assessments
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+          <a
+            class="_btn_0829c1 _primary_0829c1 link"
+            href="#"
+          >
+            Work With Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

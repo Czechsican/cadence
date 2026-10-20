@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Testimonials /> > should match snapshot 1`] = `
+<div>
+  <section
+    class="testimonialSection"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="_cornerTab_1d5846 _marginBottom_1d5846 "
+      >
+        What Clients Say
+      </p>
+      <article
+        class="testimonial"
+      >
+        <blockquote>
+          "I've worked with executive coaches before. Cadence was the first time I felt like someone actually understood what was happening in my organization — not just what I was telling them. The coaching was direct in a way I didn't expect, and that's exactly what I needed."
+        </blockquote>
+        <cite>
+          Director of Operations — Technology Company, Vancouver
+        </cite>
+      </article>
+    </div>
+  </section>
+</div>
+`;

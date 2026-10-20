@@ -2,15 +2,15 @@
   position: relative;
   display: flex;
   align-items: center;
-  min-height: 500px;
+  min-height: 600px;
   background: var(--hero-bg);
-  padding: var(--hero-padding-y) 0;
+  padding: 0;
 }
 
 .heroContent {
   position: relative;
   z-index: 1;
-  max-width: 40%;
+  max-width: 100%;
   padding-left: 05%;
 }
 
@@ -20,14 +20,14 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 20px;
+  width: var(--space-xs);
   background: var(--color-orange);
 }
 
 .siteHero::after {
   background:
     linear-gradient(to right, var(--hero-bg) 0%, transparent 35%),
-    url("https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&h=900&q=85")
+    var(--hero-image)
       center/cover no-repeat;
   content: "";
   position: absolute;
@@ -35,7 +35,7 @@
   right: 0;
   bottom: 0;
   width: 55%;
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 .heroContent h1 {
@@ -45,7 +45,7 @@
   text-transform: var(--h1-transform);
   color: var(--color-white);
   font-size: clamp(1.8rem, 3.5vw, 3rem);
-  margin-bottom: 50px;
+  margin-bottom: var(--space-3xl);
   margin-bottom: var(--space-lg);
 }
 
@@ -59,7 +59,7 @@ em {
   color: var(--color-blue-light);
   font-size: 1rem;
   line-height: 1.65;
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-xl);
 }
 
 .heroEyeBrow {
@@ -73,6 +73,7 @@ em {
   display: flex;
   gap: var(--space-md);
   flex-wrap: wrap;
+  margin-bottom: var(--space-2xl);
 }
 
 .heroContent > * {
@@ -85,10 +86,10 @@ em {
   animation-delay: 0.15s;
 }
 .heroContent > *:nth-child(2) {
-  animation-delay: 0.30s;
+  animation-delay: 0.3s;
 }
 .heroContent > *:nth-child(3) {
-  animation-delay: 0.50s;
+  animation-delay: 0.5s;
 }
 .heroContent > *:nth-child(4) {
   animation-delay: 0.65s;
@@ -98,5 +99,35 @@ em {
   to {
     opacity: 1;
     transform: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .siteHero {
+    padding: var(--hero-padding-y) 0;
+    min-height: 500px;
+  }
+
+  .heroContent {
+    position: relative;
+    z-index: 1;
+    max-width: 40%;
+    padding-left: 05%;
+  }
+
+  .siteHero::before {
+    width: var(--space-md);
+  }
+
+  .siteHero::after {
+    opacity: 0.6;
+  }
+
+  .heroContent p {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .heroCtas {
+    margin-bottom: 0;
   }
 }

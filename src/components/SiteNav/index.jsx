@@ -1,32 +1,55 @@
-import Button from '../Button';
-import styles from './SiteNav.module.css';
+import { useState } from "react";
+import Button from "../Button";
+import styles from "./SiteNav.module.css";
+import content from "../../content/siteNav.json";
+
+const NAV_LINKS_ID = "site-nav-links";
 
 const SiteNav = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  }
+
+  const siteNavStyles = menuOpen ? 
+  `${styles.siteNav} ${styles.open}` :
+  `${styles.siteNav}`;
+
+  const containerStyles = menuOpen ? 
+  `${styles.navLinksContainer} ${styles.open}` :
+  `${styles.navLinksContainer}`;
+
   return (
-    <nav className={styles.siteNav}>
+    <nav className={siteNavStyles} aria-label={content.navLabel}>
       <div className="container">
         <div className={styles.navInner}>
           <div className={styles.navLogo}>
-            Cadence
-            <span>Leadership + Communication</span>
+            {content.logo}
+            <span>{content.logoSub}</span>
           </div>
-          <ul className={styles.navLinks}>
-            <li>
-              <a href="#">Coaching</a>
-            </li>
-            <li>
-              <a href="#">Courses & Training</a>
-            </li>
-            <li>
-              <a href="#">360 Assessments</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-          </ul>
-          <Button 
-            btnText={"Work With Us"}
-          />
+          <button
+            type="button"
+            onClick={toggleMenu}
+            className={styles.burgerMenu}
+            aria-label={content.menuLabel}
+            aria-controls={NAV_LINKS_ID}
+            aria-expanded={menuOpen}
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+          <div id={NAV_LINKS_ID} className={containerStyles}>
+            <ul className={styles.navLinks}>
+              {content.links.map((link) => (
+                <li key={link.text}>
+                  <a href={link.href}>{link.text}</a>
+                </li>
+              ))}
+            </ul>
+            <Button {...content.cta} />
+          </div>
         </div>
       </div>
     </nav>

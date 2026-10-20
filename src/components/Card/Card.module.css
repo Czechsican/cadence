@@ -13,6 +13,10 @@
   flex-shrink: 0;
 }
 
+.tall .cardImg img {
+  aspect-ratio: 2 / 3;
+}
+
 .cardImg img {
   transition: transform 500ms ease-in-out;
 }
@@ -31,6 +35,10 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.tall .cardBody {
+  padding: 1rem var(--space-lg);
 }
 
 .cardLabel {
@@ -53,6 +61,16 @@
   margin-bottom: var(--space-sm);
 }
 
+.tall .cardTitle {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: var(--color-blue-dark);
+  margin-bottom: 0.2rem;
+}
+
 .cardBody p {
   font-size: 0.9rem;
   line-height: 1.6;
@@ -60,6 +78,14 @@
   margin-bottom: var(--space-lg);
 }
 
+.tall .cardBody p {
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+}
 .cardLink {
   font-family: var(--font-display);
   font-size: 0.62rem;

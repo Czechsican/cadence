@@ -1,30 +1,31 @@
+import React from 'react';
 import styles from "./HeroSection.module.css";
 import ButtonLink from "../Button";
+import { getImage } from "../../content/images";
+import content from "../../content/hero.json";
 
 const HeroSection = ({eyebrow}) => {
   return (
-    <section className={styles.siteHero}>
+    <section
+      className={styles.siteHero}
+      style={{ "--hero-image": `url("${getImage("workspace").src}")` }}
+    >
       <div>
         <div className={styles.heroContent}>
           <p className={styles.heroEyeBrow}>{eyebrow}</p>
           <h1>
-            Most leadership development asks good questions. <br />
-            <em>We take positions.</em>
+            {`${content.titleLead} `}
+            <br />
+            <em>{content.titleEmphasis}</em>
           </h1>
-          <p>
-            Cadence works with senior leaders and the teams they're accountable
-            for — coaching, developing, and assessing the people who carry
-            organizations forward. We're built on a psychology-based approach
-            that pushes people through real change, not around it.
-          </p>
+          <p>{content.body}</p>
           <div className={styles.heroCtas}>
             <ButtonLink
-              btnText={"Work With Us"}
+              {...content.primaryCta}
              />
              
             <ButtonLink
-              style={"secondary"}
-              btnText={"See How Our 360 Works"}
+              {...content.secondaryCta}
              />
           </div>
         </div>

@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<HeroSection /> > should match snapshot 1`] = `
+<div>
+  <section
+    class="siteHero"
+    style="--hero-image: url("https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&h=900&q=85");"
+  >
+    <div>
+      <div
+        class="heroContent"
+      >
+        <p
+          class="heroEyeBrow"
+        />
+        <h1>
+          Most leadership development asks good questions. 
+          <br />
+          <em>
+            We take positions.
+          </em>
+        </h1>
+        <p>
+          Cadence works with senior leaders and the teams they're accountable for — coaching, developing, and assessing the people who carry organizations forward. We're built on a psychology-based approach that pushes people through real change, not around it.
+        </p>
+        <div
+          class="heroCtas"
+        >
+          <a
+            class="_btn_0829c1 _primary_0829c1 link"
+            href="#"
+          >
+            Work With Us
+          </a>
+          <a
+            class="_btn_0829c1 _secondary_0829c1 link"
+            href="#"
+          >
+            See How Our 360 Works
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
